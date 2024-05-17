@@ -1,0 +1,14 @@
+CREATE DATABASE [ADO.NET_17.05]
+GO
+USE [ADO.NET_17.05]
+GO
+
+CREATE TABLE Games (
+    Id INT PRIMARY KEY IDENTITY (1,1),
+    Name NVARCHAR(100),
+    Studio NVARCHAR(100),
+    Style NVARCHAR(100),
+    ReleaseDate DATE,
+    GameMode NVARCHAR(50),
+    CopiesSold INT
+);
